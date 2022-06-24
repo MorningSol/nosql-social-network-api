@@ -1,7 +1,7 @@
 const { Thought, User } = require('../models');
 
 const thoughtController = {
-    // add comment to pizza
+   
     addThought({ params, body }, res) {
         console.log(body);
         
@@ -41,7 +41,7 @@ const thoughtController = {
         .catch(err => res.json(err));
     },
 
-    // remove comment
+    
     removeThought( { params }, res ) {
         Thought.findOneAndDelete({ _id: params.thoughtId })
         .then(deletedthought =>{
