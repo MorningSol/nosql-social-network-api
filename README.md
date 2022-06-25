@@ -2,10 +2,7 @@
 
 ## Description
 
-MongoDB is a popular choice for many social networks due to its speed with large amounts of data and flexibility with unstructured data. 
-
-Your challenge is to build an API for a social network using Express.js for routing, a MongoDB database, and the Mongoose ODM. 
-
+​This is an API for a social network web application where users can share their thoughts, react to friends' thoughts and create a friend list.​ Built using Express.js for routing, a MongoDB database, and the Mongoose ODM.
 
 
 &nbsp;
@@ -24,9 +21,7 @@ SO THAT my website can handle large amounts of unstructured data
 ---
 ## Installation
 
-The User should first clone the repository from GitHub.
-
-&nbsp;
+ The User should first clone the repository from GitHub.
 
 In the command-line, you will need to enter the following command;
 ```
@@ -54,9 +49,6 @@ You can test the API routes using Insomnia.
 
 ---
 ## Demonstration Video
-
-
-
 
 https://user-images.githubusercontent.com/98545619/175784135-e0e9b8e0-e0c1-4a7c-ae96-fa33191eca01.mp4
 
